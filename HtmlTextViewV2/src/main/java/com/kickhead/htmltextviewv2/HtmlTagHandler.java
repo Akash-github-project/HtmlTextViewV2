@@ -60,7 +60,7 @@ public class HtmlTagHandler implements WrapperTagHandler {
      * @return html with replaced <ul> and <li> tags
      * @see <a href="https://github.com/android/platform_frameworks_base/commit/8b36c0bbd1503c61c111feac939193c47f812190">Specific Android SDK Commit</a>
      */
-    String overrideTags(@Nullable String html) {
+    String overrideTags(String html) {
 
         if (html == null) return null;
         html = "<" + PLACEHOLDER_ITEM + "></" + PLACEHOLDER_ITEM + ">" + html;

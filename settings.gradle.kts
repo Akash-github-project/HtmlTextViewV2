@@ -22,3 +22,8 @@ dependencyResolutionManagement {
 rootProject.name = "HtmlTextViewV2"
 include(":app")
 include(":HtmlTextViewV2")
+include(":ReadmoreTextView")
+include(":flowlayoutmanager")
+include(":TapTargetView")
+include(":LoadingButtonAndroid")
+include(":MaterialSearchView")
